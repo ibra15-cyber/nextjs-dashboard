@@ -11,6 +11,10 @@ export default function LoginPage() {
           </div>
         </div>
         <LoginForm />
+        {/* Add form errors here */}
+        use this credentials to log in
+        <p>Email: user@nextmail.com</p>
+        <p>Password: 123456</p>{" "}
       </div>
     </main>
   );
